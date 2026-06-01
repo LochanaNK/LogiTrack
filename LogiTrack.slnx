@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="LogiTrack.AnomalyDetector/LogiTrack.AnomalyDetector.csproj" />
+  <Project Path="LogiTrack.EmergencyResponder/LogiTrack.EmergencyResponder.csproj" />
+  <Project Path="LogiTrack.LiveMap/LogiTrack.LiveMap.csproj" />
+  <Project Path="LogiTrack.Shared/LogiTrack.Shared.csproj" />
+  <Project Path="LogiTrack.Simulator/LogiTrack.Simulator.csproj" />
+</Solution>
