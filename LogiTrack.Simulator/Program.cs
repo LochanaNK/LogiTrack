@@ -21,7 +21,7 @@ while (true)
             Latitude: 40.7128 + (random.NextDouble() * 0.01),
             Longitude: -74.0060 + (random.NextDouble()* 0.01),
             SpeedMph: random.Next(45, 75),
-            EngineTempFahreheit: random.Next(190, 230),
+            EngineTempFahrenheit: random.Next(190, 230),
             TimeStamp: DateTimeOffset.UtcNow
         );
 

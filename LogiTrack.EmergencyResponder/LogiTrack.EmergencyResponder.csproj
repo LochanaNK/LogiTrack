@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-LogiTrack.EmergencyResponder-f983cb97-922b-492f-9933-9a14fc98d47a</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Confluent.Kafka" Version="2.14.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LogiTrack.Shared\LogiTrack.Shared.csproj" />
+  </ItemGroup>
+</Project>

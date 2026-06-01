@@ -9,6 +9,6 @@ public record VehicleTelemetry(
     double Latitude,
     double Longitude,
     int SpeedMph,
-    int EngineTempFahreheit,
+    int EngineTempFahrenheit,
     DateTimeOffset TimeStamp
 );
